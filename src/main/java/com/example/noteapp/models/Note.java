@@ -28,6 +28,4 @@ public class Note {
     private User owner;
     @Column(name = "created")
     private LocalDateTime created = LocalDateTime.now();
-
-    // TODO добавить приоритет?
 }
